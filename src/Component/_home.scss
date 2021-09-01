@@ -1,0 +1,108 @@
+@import '../scss/variables';
+
+.home{
+    &-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    }
+
+   
+
+    &-example {
+        margin-top: 2rem;
+        max-width: 70%;
+        box-shadow: 2px 2px 14px 2px #3b497c;
+    }
+    &-subheader{
+        color:#999999;
+    }
+}
+header{
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    color:#7289Da;
+    font-weight: 600;
+    font-size: $font-mdlg;
+}
+.exampledes{
+    color:#6e85d6;
+    font-size: 1.3rem;
+    text-align: center;
+    max-width: 50%;
+}
+.how {
+    margin-top: 2rem;
+    text-align: center;
+    &-header{
+    font-size: $font-lg;
+    color:#7289Da;
+    }
+    &-subheader{
+        color:#999999;
+
+    }
+    &-steps{
+        display: flex;
+        color:rgb(197, 194, 194);
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    li{
+        margin-bottom: 1rem;
+    }
+  
+}
+
+.credits {
+    text-align: center;
+    &-header{
+
+        font-size: $font-lg;
+        color:#7289Da;
+    }
+    &-subheader{
+
+        color:#999999;
+    }
+    &-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        row-gap: 1.5rem;
+        a{
+            text-decoration: none;
+            font-size: 1.3rem;
+        }
+        
+    }
+   
+
+}
+
+.theme,.count{
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+    border-bottom: 2px solid #7285c9;
+}
+
+.myrepo {
+    text-align: center;
+    &-header {
+        color: #7289Da;
+        font-weight: 600;
+        font-size: $font-lg;
+    }
+    &-star {
+        color:white;
+    }
+    a{
+        font-size: 1.6rem;
+        text-decoration: none;
+        color:#afc1fc;
+        font-weight: 600;
+       
+    }
+    margin-bottom: 4rem;
+}

@@ -1,0 +1,274 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  font-size: 1.5rem;
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html {
+  height: 100vh;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #32363b;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.stat-container {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.userStat, .lanStat, .socialStat, .badgeStat, .countStat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #99aab5;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-width: 40%;
+}
+
+.userStat-form, .lanStat-form, .socialStat-form, .badgeStat-form, .countStat-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.lanStat-img {
+  margin-bottom: 3rem;
+}
+
+.social-container {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.social-icon {
+  min-width: 100%;
+  margin-top: 2.5rem;
+}
+
+.social-link {
+  min-width: 15%;
+}
+
+.socialStat-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+}
+
+.navbar-container {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.navbar-container a {
+  font-size: 1.2rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+}
+
+.home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-example {
+  margin-top: 2rem;
+  max-width: 70%;
+  -webkit-box-shadow: 2px 2px 14px 2px #3b497c;
+          box-shadow: 2px 2px 14px 2px #3b497c;
+}
+
+.home-subheader {
+  color: #999999;
+}
+
+header {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  color: #7289Da;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+.exampledes {
+  color: #6e85d6;
+  font-size: 1.3rem;
+  text-align: center;
+  max-width: 50%;
+}
+
+.how {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.how-header {
+  font-size: 2rem;
+  color: #7289Da;
+}
+
+.how-subheader {
+  color: #999999;
+}
+
+.how-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #c5c2c2;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.how li {
+  margin-bottom: 1rem;
+}
+
+.credits {
+  text-align: center;
+}
+
+.credits-header {
+  font-size: 2rem;
+  color: #7289Da;
+}
+
+.credits-subheader {
+  color: #999999;
+}
+
+.credits-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  row-gap: 1.5rem;
+}
+
+.credits-grid a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.theme, .count {
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 2px solid #7285c9;
+}
+
+.myrepo {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.myrepo-header {
+  color: #7289Da;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.myrepo-star {
+  color: white;
+}
+
+.myrepo a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #afc1fc;
+  font-weight: 600;
+}
+
+.badge-link {
+  min-width: 35%;
+}
+
+.badge-container {
+  max-width: 100%;
+}
+
+.badgeStat {
+  max-width: 50%;
+  padding-bottom: 2.5rem;
+}
+
+.badgeStat-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.countStat {
+  max-width: 50%;
+  padding-bottom: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */

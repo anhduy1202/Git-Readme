@@ -1,0 +1,13 @@
+@import '../scss/variables';
+
+.navbar-container {
+    align-self: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    a{
+        font-size: 1.2rem;
+        font-family: $code;
+        font-weight: 600;
+    }
+}

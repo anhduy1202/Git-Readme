@@ -1,0 +1,34 @@
+@import '../scss/variables';
+
+.stat {
+    &-container{
+        width:70%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.userStat, .lanStat, .socialStat, .badgeStat, .countStat{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #99aab5;
+    flex-wrap: wrap;
+    min-width: 40%;
+ &-form {
+     display: flex;
+max-width: 50%;
+     flex-direction: column;
+    
+ }   
+ 
+}
+
+.lanStat {
+  
+    &-img {
+        margin-bottom: 3rem;
+    }
+}
+
+
