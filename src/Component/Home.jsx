@@ -3,7 +3,7 @@ import example from '../Image/readmeex.jpg';
 const Home = (props) => {
     return (
         <main className="home-container">
-            <header> 👾🤩 Welcome to Make a Read Me 🤩👾 </header>
+            <header>  Welcome to GitMe 👾🤩  </header>
             <section className="home-subheader">
                 The only website you'll need to make a pretty looking Readme on Github
             </section>

@@ -58,7 +58,9 @@ const useStyles = makeStyles(() => ({
         color: "#99AAB5",
         fontWeight: 700
     },
+    
     typocode: {
+        
         color: "white",
         fontWeight: 700,
         fontFamily: "Source Code Pro"
@@ -137,7 +139,7 @@ const UserStat = () => {
                     </FormControl>
 
                     <Accordion className={classes.accord}>
-                        <AccordionSummary
+                        <AccordionSummary 
                             expandIcon={<ExpandMoreIcon />}
                             aria-controls="panel1a-content"
                             id="panel1a-header"

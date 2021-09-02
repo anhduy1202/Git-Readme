@@ -1,4 +1,5 @@
 @import '../scss/variables';
+@import '../scss/mixins';
 
 .home{
     &-container{
@@ -6,6 +7,10 @@
     justify-content: center;
     align-items:center;
     flex-direction: column;
+    @include breakpoint-down(medium) {
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
     }
 
    
@@ -14,9 +19,16 @@
         margin-top: 2rem;
         max-width: 70%;
         box-shadow: 2px 2px 14px 2px #3b497c;
+                margin: 0 1.2rem 0 1.2rem;
+                @include breakpoint-down(medium) {
+                    max-width:80%;
+                }
     }
     &-subheader{
         color:#999999;
+        @include breakpoint-down(medium) {
+            font-size: 1.2rem;
+        }
     }
 }
 header{
@@ -25,12 +37,21 @@ header{
     color:#7289Da;
     font-weight: 600;
     font-size: $font-mdlg;
+
+    @include breakpoint-down(medium) {
+        font-size: 1.4rem;
+        text-align: center;
+    }
 }
 .exampledes{
     color:#6e85d6;
     font-size: 1.3rem;
     text-align: center;
     max-width: 50%;
+    @include breakpoint-down(medium) {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
 }
 .how {
     margin-top: 2rem;
@@ -38,19 +59,29 @@ header{
     &-header{
     font-size: $font-lg;
     color:#7289Da;
+    @include breakpoint-down(medium) {
+        font-size: 1.5rem;
+        text-align: center;
+    }
     }
     &-subheader{
         color:#999999;
-
+        @include breakpoint-down(medium) {
+            font-size: 1.2rem;
+        }
     }
     &-steps{
         display: flex;
         color:rgb(197, 194, 194);
         flex-direction: column;
         align-items: flex-start;
+        @include breakpoint-down(medium) {
+            margin: 2rem 2rem 0 2rem;
+            font-size: 1rem;
+        }
     }
     li{
-        margin-bottom: 1rem;
+        margin-bottom: 1.4rem;
     }
   
 }
@@ -61,19 +92,35 @@ header{
 
         font-size: $font-lg;
         color:#7289Da;
+        @include breakpoint-down(medium) {
+            font-size: 1.5rem;
+            text-align: center;
+        }
     }
     &-subheader{
 
         color:#999999;
+        @include breakpoint-down(medium) {
+            font-size: 1.2rem;
+            text-align: center;
+        }
     }
     &-grid {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         text-align: center;
         row-gap: 1.5rem;
+        @include breakpoint-down(medium) {
+            margin: 0 2rem 0 2rem;
+            grid-template-columns: repeat(2,0.5fr);
+            text-align: center;
+        }
         a{
             text-decoration: none;
             font-size: 1.3rem;
+            @include breakpoint-down(medium){
+                font-size: 1.1rem;
+            }
         }
         
     }
@@ -93,15 +140,27 @@ header{
         color: #7289Da;
         font-weight: 600;
         font-size: $font-lg;
+        @include breakpoint-down(medium) {
+            font-size: 1.5rem;
+            text-align: center;
+        }
     }
     &-star {
         color:white;
+        @include breakpoint-down(medium) {
+            margin: 0 2rem 2rem 2rem;
+            font-size: 1.2rem;
+            text-align: center;
+        }
     }
     a{
         font-size: 1.6rem;
         text-decoration: none;
         color:#afc1fc;
         font-weight: 600;
+        @include breakpoint-down(medium) {
+            font-size: 1.4rem;
+        }
        
     }
     margin-bottom: 4rem;

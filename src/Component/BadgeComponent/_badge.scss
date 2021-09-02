@@ -1,4 +1,5 @@
 @import "../../scss/variables";
+@import "../../scss/mixins";
 
 .badge {
     &-link {
@@ -10,15 +11,34 @@
 
 .badge-container {
     max-width: 100%;
+   @include breakpoint-down(medium){
+       margin-left: 2rem;
+   }
 }
 
-.badgeStat {
+.mainbadge{
+    @include breakpoint-down(medium){
+        max-width: 100%;
+    }
+}
+
+.badgeStat{
     max-width: 50%;
     padding-bottom: 2.5rem;
     &-form {
         display: flex;
         min-width: 100%;
         margin-bottom: 1.5rem;
+        @include breakpoint-down(medium){
+            min-width: 80%;
+        }
+        
+    }
+    @include breakpoint-down(medium){
+        max-width: 100%;
+        p {
+            font-size: 0.87rem;
+        }
     }
 }
 
@@ -26,7 +46,14 @@
     max-width: 50%;
     padding-bottom: 2rem;
     flex-direction: column;
-
+    @include breakpoint-down(medium) {
+        max-width: 100%;
+        img {
+            transform: scale(1.5);
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
    
 
 }

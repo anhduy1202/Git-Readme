@@ -1,13 +1,23 @@
 @import '../scss/variables';
-
+@import '../scss/mixins';
 .navbar-container {
     align-self: flex-end;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-right: 3rem;
+    @include breakpoint-down(medium){
+    margin-left: 2rem;
+    }
     a{
         font-size: 1.2rem;
         font-family: $code;
         font-weight: 600;
+        
     }
+    @include breakpoint-down(medium) {
+        a{
+            font-size: 0.9rem;
+
+        } 
+     }
 }

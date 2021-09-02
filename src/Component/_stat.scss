@@ -1,13 +1,35 @@
 @import '../scss/variables';
+@import '../scss/mixins';
 
 .stat {
     &-container{
         width:70%;
         display: flex;
         flex-direction: column;
+        @include breakpoint-down(medium){
+            min-width: 80%;
+        }
+    }
+}
+.social {
+    &-container {
+        @include breakpoint-down(medium){
+            min-width: 100%;
+            margin-left: 2rem;
+        }
+    }
+   
+    &-icon {
+        @include breakpoint-down(medium){
+           max-width: 100%;
+        }
     }
 }
 
+.socialStat{
+    @include breakpoint-down(medium) {
+    }
+}
 .userStat, .lanStat, .socialStat, .badgeStat, .countStat{
     display: flex;
     flex-direction: row;
@@ -19,7 +41,11 @@
      display: flex;
 max-width: 50%;
      flex-direction: column;
-    
+    @include breakpoint-down(medium){
+        max-width: 110%;
+        margin-right: -1rem;
+        margin-bottom: 2rem;
+    }
  }   
  
 }
@@ -32,3 +58,10 @@ max-width: 50%;
 }
 
 
+.userStat{
+    &-img{
+        @include breakpoint-down(medium) {
+            max-width: 100%;
+        }
+    }
+}

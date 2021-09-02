@@ -42,6 +42,25 @@ html {
           flex-direction: column;
 }
 
+@media (max-width: 63.9375em) {
+  .stat-container {
+    min-width: 80%;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .social-container {
+    min-width: 100%;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .social-icon {
+    max-width: 100%;
+  }
+}
+
 .userStat, .lanStat, .socialStat, .badgeStat, .countStat {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,8 +87,22 @@ html {
           flex-direction: column;
 }
 
+@media (max-width: 63.9375em) {
+  .userStat-form, .lanStat-form, .socialStat-form, .badgeStat-form, .countStat-form {
+    max-width: 110%;
+    margin-right: -1rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .lanStat-img {
   margin-bottom: 3rem;
+}
+
+@media (max-width: 63.9375em) {
+  .userStat-img {
+    max-width: 100%;
+  }
 }
 
 .social-container {
@@ -92,6 +125,12 @@ html {
   min-width: 15%;
 }
 
+@media (max-width: 63.9375em) {
+  .social-link {
+    min-width: 30%;
+  }
+}
+
 .socialStat-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,10 +146,22 @@ html {
   margin-right: 3rem;
 }
 
+@media (max-width: 63.9375em) {
+  .navbar-container {
+    margin-left: 2rem;
+  }
+}
+
 .navbar-container a {
   font-size: 1.2rem;
   font-family: "Source Code Pro", monospace;
   font-weight: 600;
+}
+
+@media (max-width: 63.9375em) {
+  .navbar-container a {
+    font-size: 0.9rem;
+  }
 }
 
 .home-container {
@@ -129,15 +180,35 @@ html {
           flex-direction: column;
 }
 
+@media (max-width: 63.9375em) {
+  .home-container {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+  }
+}
+
 .home-example {
   margin-top: 2rem;
   max-width: 70%;
   -webkit-box-shadow: 2px 2px 14px 2px #3b497c;
           box-shadow: 2px 2px 14px 2px #3b497c;
+  margin: 0 1.2rem 0 1.2rem;
+}
+
+@media (max-width: 63.9375em) {
+  .home-example {
+    max-width: 80%;
+  }
 }
 
 .home-subheader {
   color: #999999;
+}
+
+@media (max-width: 63.9375em) {
+  .home-subheader {
+    font-size: 1.2rem;
+  }
 }
 
 header {
@@ -148,11 +219,25 @@ header {
   font-size: 1.75rem;
 }
 
+@media (max-width: 63.9375em) {
+  header {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
 .exampledes {
   color: #6e85d6;
   font-size: 1.3rem;
   text-align: center;
   max-width: 50%;
+}
+
+@media (max-width: 63.9375em) {
+  .exampledes {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
 }
 
 .how {
@@ -165,8 +250,21 @@ header {
   color: #7289Da;
 }
 
+@media (max-width: 63.9375em) {
+  .how-header {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
 .how-subheader {
   color: #999999;
+}
+
+@media (max-width: 63.9375em) {
+  .how-subheader {
+    font-size: 1.2rem;
+  }
 }
 
 .how-steps {
@@ -183,8 +281,15 @@ header {
           align-items: flex-start;
 }
 
+@media (max-width: 63.9375em) {
+  .how-steps {
+    margin: 2rem 2rem 0 2rem;
+    font-size: 1rem;
+  }
+}
+
 .how li {
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
 }
 
 .credits {
@@ -196,8 +301,22 @@ header {
   color: #7289Da;
 }
 
+@media (max-width: 63.9375em) {
+  .credits-header {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
 .credits-subheader {
   color: #999999;
+}
+
+@media (max-width: 63.9375em) {
+  .credits-subheader {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }
 
 .credits-grid {
@@ -209,9 +328,24 @@ header {
   row-gap: 1.5rem;
 }
 
+@media (max-width: 63.9375em) {
+  .credits-grid {
+    margin: 0 2rem 0 2rem;
+    -ms-grid-columns: (0.5fr)[2];
+        grid-template-columns: repeat(2, 0.5fr);
+    text-align: center;
+  }
+}
+
 .credits-grid a {
   text-decoration: none;
   font-size: 1.3rem;
+}
+
+@media (max-width: 63.9375em) {
+  .credits-grid a {
+    font-size: 1.1rem;
+  }
 }
 
 .theme, .count {
@@ -231,8 +365,23 @@ header {
   font-size: 2rem;
 }
 
+@media (max-width: 63.9375em) {
+  .myrepo-header {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
 .myrepo-star {
   color: white;
+}
+
+@media (max-width: 63.9375em) {
+  .myrepo-star {
+    margin: 0 2rem 2rem 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }
 
 .myrepo a {
@@ -242,12 +391,30 @@ header {
   font-weight: 600;
 }
 
+@media (max-width: 63.9375em) {
+  .myrepo a {
+    font-size: 1.4rem;
+  }
+}
+
 .badge-link {
   min-width: 35%;
 }
 
 .badge-container {
   max-width: 100%;
+}
+
+@media (max-width: 63.9375em) {
+  .badge-container {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .mainbadge {
+    max-width: 100%;
+  }
 }
 
 .badgeStat {
@@ -263,6 +430,21 @@ header {
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 63.9375em) {
+  .badgeStat-form {
+    min-width: 80%;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .badgeStat {
+    max-width: 100%;
+  }
+  .badgeStat p {
+    font-size: 0.87rem;
+  }
+}
+
 .countStat {
   max-width: 50%;
   padding-bottom: 2rem;
@@ -270,5 +452,17 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media (max-width: 63.9375em) {
+  .countStat {
+    max-width: 100%;
+  }
+  .countStat img {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
