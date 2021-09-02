@@ -75,7 +75,7 @@ const useStyles = makeStyles(() => ({
 
 const RepoStat = () => {
     const [userName, setUserName] = useState("anhduy1202");
-    const [repo, setRepo] = useState("better-tic-tac-toe-client");
+    const [repo, setRepo] = useState("Git-Readme");
     const [repoCode, setRepoCode] = useState(`<img src="https://github-readme-stats.vercel.app/api/pin/?username=${userName}&repo=${repo}>`);
     const classes = useStyles();
     const [isCopied, setCopied] = useCopyClipboard(repoCode);
