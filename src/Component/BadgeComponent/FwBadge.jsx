@@ -67,6 +67,8 @@ const useStyles = makeStyles(() => ({
 
     },
     typocode: {
+        whiteSpace:"normal",
+        overflow:"hidden",
         color: "white",
         fontWeight: 700,
         fontFamily: "Source Code Pro"
