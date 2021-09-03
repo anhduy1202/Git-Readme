@@ -8,4 +8,6 @@
 * Go to your Github readme to customize it
 * Use this website and copy the code you need 😍
 
+### Read more about this project on my blog: https://danieltruong.hashnode.dev/git-readme-customize-your-github-readme-in-an-easier-way
+
 ## Give it a ⭐️ if you enjoy using the website
