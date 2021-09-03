@@ -4,10 +4,8 @@
 
 👆 These badges are copy pasted from this website 
 
-## Make your Github Readme prettier in 4 steps:
-* Sign in/ Sign up to your Github Account
-* At the homepage, click on the readme (introduce yourself)
-* Type anything you want
+## Make your Github Readme prettier in 2 steps:
+* Go to your Github readme to customize it
 * Use this website and copy the code you need 😍
 
 ## Give it a ⭐️ if you enjoy using the website
