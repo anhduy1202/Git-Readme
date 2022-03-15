@@ -1,8 +1,11 @@
+
+<img src="https://img.shields.io/github/stars/anhduy1202/Git-Readme"/> <img src="https://img.shields.io/github/issues/anhduy1202/Git-Readme"/> ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/anhduy1202/Git-Readme) <img src="https://img.shields.io/github/license/anhduy1202/Git-Readme"/>
 # Git Readme: Custom Github Readme in an easier way 🥳
 
 <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"> <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"> <img src="https://img.shields.io/badge/materialui-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white">
 
 👆 These badges are copy pasted from this website 
+
 
 ## Make your Github Readme prettier in 2 steps:
 * Go to your Github readme to customize it
